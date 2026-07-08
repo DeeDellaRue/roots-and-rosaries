@@ -1,0 +1,6 @@
+{
+  "name": "Roots and Rosaries",
+  "description": "Spiritualist & Ancestral Practitioner platform for Madame Dee Della Rue, providing intuitive divination, Hoodoo, and Sicilian folk spiritual guidance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
