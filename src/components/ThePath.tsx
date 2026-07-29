@@ -64,7 +64,7 @@ export default function ThePath() {
               <p className="story-para">
                 I am <span className="text-antique-gold font-semibold uppercase tracking-widest">Madame Dee Della Rue</span>, 
                 a spiritualist, conjure woman, seer, and ancestral practitioner whose work stands at the meeting place of{" "}
-                <span className="text-antique-gold font-medium">Black American Hoodoo</span>{" "}
+                <span className="text-antique-gold font-medium">Hoodoo</span>{" "}
                 and <span className="text-antique-gold font-medium">Sicilian folk spirituality</span>.
               </p>
 
