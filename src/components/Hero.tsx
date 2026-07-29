@@ -28,7 +28,7 @@ export default function Hero({ onInquire }: HeroProps) {
   preload="auto"
   aria-hidden="true"
 >
-  <source src="/roots-rosaries-altar.mp4" type="video/mp4" />
+  <source src="/roots-rosaries-altar2.mp4" type="video/mp4" />
 </video>
         {/* Soft, rich gradients to ground the visual depth, providing a dark overlay around 58% behind the text */}
         <div className="absolute inset-0 bg-gradient-to-t from-deep-black via-deep-black/58 to-deep-black pointer-events-none"></div>
