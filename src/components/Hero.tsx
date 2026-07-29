@@ -20,7 +20,7 @@ export default function Hero({ onInquire }: HeroProps) {
       {/* Background Image Container */}
       <div className="absolute inset-0 z-0 bg-deep-black">
        <video
-  className="absolute inset-0 w-full h-full object-cover opacity-[0.38] select-none pointer-events-none"
+  className="absolute inset-0 w-full h-full object-cover opacity-[0.75] select-none pointer-events-none"
   autoPlay
   muted
   loop
@@ -31,7 +31,7 @@ export default function Hero({ onInquire }: HeroProps) {
   <source src="/roots-rosaries-altar2.mp4" type="video/mp4" />
 </video>
         {/* Soft, rich gradients to ground the visual depth, providing a dark overlay around 58% behind the text */}
-        <div className="absolute inset-0 bg-gradient-to-t from-deep-black via-deep-black/58 to-deep-black pointer-events-none"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-deep-black via-deep-black/25 to-deep-black pointer-events-none"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-deep-black/40 via-transparent to-deep-black/40 pointer-events-none"></div>
       </div>
 
