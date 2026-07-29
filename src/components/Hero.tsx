@@ -6,7 +6,6 @@
 import React from "react";
 import { motion } from "motion/react";
 import { ChevronDown } from "lucide-react";
-import ceremonialWaterImg from "../assets/images/ceremonial_water_photo_of_me.jpeg";
 
 interface HeroProps {
   onInquire: () => void;
@@ -20,12 +19,17 @@ export default function Hero({ onInquire }: HeroProps) {
     >
       {/* Background Image Container */}
       <div className="absolute inset-0 z-0 bg-deep-black">
-        <img
-          src={ceremonialWaterImg}
-          className="absolute inset-0 w-full h-full object-cover scale-105 opacity-[0.28] select-none pointer-events-none filter brightness-[0.98] contrast-[1.12] saturate-[0.88]"
-          referrerPolicy="no-referrer"
-          alt="Subtle personal ceremonial water texture background"
-        />
+       <video
+  className="absolute inset-0 w-full h-full object-cover opacity-[0.38] select-none pointer-events-none"
+  autoPlay
+  muted
+  loop
+  playsInline
+  preload="auto"
+  aria-hidden="true"
+>
+  <source src="/roots-rosaries-altar.mp4" type="video/mp4" />
+</video>
         {/* Soft, rich gradients to ground the visual depth, providing a dark overlay around 58% behind the text */}
         <div className="absolute inset-0 bg-gradient-to-t from-deep-black via-deep-black/58 to-deep-black pointer-events-none"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-deep-black/40 via-transparent to-deep-black/40 pointer-events-none"></div>
