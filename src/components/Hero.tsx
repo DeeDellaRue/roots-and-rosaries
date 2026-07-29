@@ -75,7 +75,7 @@ export default function Hero({ onInquire }: HeroProps) {
           className="text-xs sm:text-sm md:text-lg font-light tracking-[0.08em] max-w-2xl mx-auto mb-14 text-parchment/90 leading-relaxed"
         >
           Madame Dee Della Rue offers grounded spiritual guidance at the crossroads
-          of <span className="text-antique-gold font-medium">Black American Hoodoo</span> and{" "}
+          of <span className="text-antique-gold font-medium">Hoodoo</span> and{" "}
           <span className="text-antique-gold font-medium">Sicilian Folk Spirituality</span>.
         </motion.p>
 
